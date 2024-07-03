@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Vue from "vue"
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
@@ -16,6 +17,13 @@ import HelloWorld from './components/HelloWorld.vue'
       </nav>
     </div>
   </header>
+
+  <v-row>
+    <v-col>
+      sakana
+    
+    </v-col>
+  </v-row>
 
   <RouterView />
 </template>
